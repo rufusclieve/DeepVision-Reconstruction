@@ -1,43 +1,86 @@
-[![MasterHead](https://static.vecteezy.com/system/resources/previews/008/216/725/original/deep-learning-word-concepts-blue-banner-neural-network-machine-learning-infographics-with-icons-on-color-background-isolated-typography-illustration-with-text-vector.jpg)](https://rishavchanda.io)
+# 📷 Detection and Correction of Pixelated Images 🖼️
 
-<h1 align="center">Hi 👋, I'm R Rufus Clieve Roy</h1>
-<h3 align="center">A passionate Machine Learning Engineer from India</h3>
-<img algin="right" alt="coding" width="400" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif"
+Welcome to the **Detection and Correction of Pixelated Images** project! This project uses a combination of deep learning models to detect and correct pixelated images. 
 
-<h1 align="center">Hi 👋, I'm R Rufus Clieve Roy</h1>
-<h3 align="center">A passionate Machine Learning Engineer from India</h3>
+## Overview
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rufusclieve&label=Profile%20views&color=0e75b6&style=flat" alt="rufusclieve" /> </p>
+This project involves two main models:
+1. **Autoencoder Model**: Used for reconstructing images.
+2. **Classifier Model**: Used for detecting whether an image is pixelated or not.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rufusclieve" alt="rufusclieve" /></a> </p>
+## Table of Contents
+- 📖 [Project Description](#project-description)
+- 🛠️ [Installation](#installation)
+- 🚀 [Usage](#usage)
+- 📊 [Results](#results)
+- 🗂️ [Directory Structure](#directory-structure)
+- 📬 [Contact](#contact)
 
-- 🔭 I’m currently working on **Detection of Pixelated Images, Correct It**
+## Project Description
 
-- 🌱 I’m currently learning **Machine Learning, Generative AI**
+### Model Architecture
 
-- 👯 I’m looking to collaborate on **Machine Learning Projects**
+- **Autoencoder**: A neural network trained to reconstruct images from a pixelated input.
+- **Classifier**: This model takes the features extracted by the encoder part of the autoencoder and determines if an image is pixelated.
 
-- 💬 Ask me about **Machine Learning, Generative AI**
+### Workflow
 
-- 📫 How to reach me **rufusrufus949@gmail.com**
+1. **Input**: A pixelated image.
+2. **Detection**: Classifier identifies if the image is pixelated.
+3. **Correction**: Autoencoder reconstructs the image to correct pixelation.
 
-- ⚡ Fun fact **I think I am funny**
+## Installation
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/rufus clieve roy r" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rufus clieve roy r" height="30" width="40" /></a>
-<a href="https://kaggle.com/rufusclieveroyr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="rufusclieveroyr" height="30" width="40" /></a>
-<a href="https://instagram.com/rufus_music" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rufus_music" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/uber_dog_72" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="uber_dog_72" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@rufusrufus949" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@rufusrufus949" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/clieveroy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="clieveroy" height="30" width="40" /></a>
-</p>
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/detection-pixelated-images.git
+    cd detection-pixelated-images
+    ```
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> </p>
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rufusclieve&show_icons=true&locale=en&layout=compact" alt="rufusclieve" /></p>
+## Usage
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rufusclieve&show_icons=true&locale=en" alt="rufusclieve" /></p>
+1. **Train the Models**:
+    ```python
+    python train_autoencoder.py
+    python train_classifier.py
+    ```
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rufusclieve&" alt="rufusclieve" /></p>
+2. **Detect and Correct Images**:
+    ```python
+    python detect_and_correct.py --input_path <input_image_path> --output_path <output_image_path>
+    ```
+
+## Results
+
+### Sample Outputs
+
+#### Original Image
+![Original Image](images/original_image.png)
+
+#### Pixelated Image
+![Pixelated Image](images/pixelated_image.png)
+
+#### Corrected Image
+![Corrected Image](images/corrected_image.png)
+
+## Directory Structure
+
+```plaintext
+├── images                # Images for README
+├── models                # Trained model files
+├── dataset               # Dataset used for training
+├── scripts               # Scripts for training and testing
+│   ├── train_autoencoder.py
+│   ├── train_classifier.py
+│   └── detect_and_correct.py
+├── README.md             # Project readme file
+└── requirements.txt      # Dependencies
+
+
+
+
