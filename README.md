@@ -82,9 +82,17 @@ Some models were rejected based on their performance metrics and efficiency:
 - **Visual Results**: Effective restoration of original quality of pixelated images and clear separation in predictions.
 - **Future Work**: Implement more sophisticated network architectures and optimize models for real-time deployment.
 
+## Saved Models
+
+- Autoencoder Model: [Download autoencoder_model.h5](path/to/autoencoder_model.h5)
+- Classifier Model: [Download classifier_model.h5](path/to/classifier_model.h5)
+
+## Colab Notebook
+
+You can find the interactive Colab notebook for this project [here](https://colab.research.google.com/drive/1cSo9Xp3HcXHjjaZDbGm_c1-U1NdXa4ow?usp=sharing).
+
 ## Report
 
-For a detailed report on the reject projects, please refer to the [rejected_model report](https://drive.google.com/drive/folders/1xo0KZliQBSj07DAy8uPIl0-87xC7nKlu?usp=sharing).
+For a detailed report on the rejected projects, please refer to the [rejected_model report](https://drive.google.com/drive/folders/1xo0KZliQBSj07DAy8uPIl0-87xC7nKlu?usp=sharing).
 
-
-For a detailed report on the working project, please refer the [Final_project](https://drive.google.com/drive/folders/1AhL5n2vOYQA1O2_6o8jvPC0WjXC5AXJP?usp=sharing)
+For a detailed report on the working project, please refer to the [Final_project](https://drive.google.com/drive/folders/1AhL5n2vOYQA1O2_6o8jvPC0WjXC5AXJP?usp=sharing).
