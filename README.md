@@ -84,8 +84,8 @@ Some models were rejected based on their performance metrics and efficiency:
 
 ## Saved Models
 
-- Autoencoder Model: [Download autoencoder_model.h5](path/to/autoencoder_model.h5)
-- Classifier Model: [Download classifier_model.h5](path/to/classifier_model.h5)
+- Autoencoder Model: [Download autoencoder_model.h5](autoencoder_model.h5)
+- Classifier Model: [Download classifier_model.h5](classifier_model.h5)
 
 ## Colab Notebook
 
