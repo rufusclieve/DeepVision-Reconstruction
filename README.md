@@ -82,10 +82,6 @@ Some models were rejected based on their performance metrics and efficiency:
 - **Visual Results**: Effective restoration of original quality of pixelated images and clear separation in predictions.
 - **Future Work**: Implement more sophisticated network architectures and optimize models for real-time deployment.
 
-## Saved Models
-
-- Autoencoder Model: [Download autoencoder_model.h5](autoencoder_model.h5)
-- Classifier Model: [Download classifier_model.h5](classifier_model.h5)
 
 ## Colab Notebook
 
